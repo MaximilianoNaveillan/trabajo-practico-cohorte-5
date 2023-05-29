@@ -9,7 +9,7 @@
     <meta name="keyword" content="Palabras clave">
     <meta name="canonical" href="htpps//tupagina.com">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Título | mi página</title>
 </head>
 <body>
     <header>
@@ -24,9 +24,26 @@
         </ul>
     </nav>
     <section id="sec1">
-        <p>
-            #sección 1
-        </p>
+        <div class="container-slider">
+            <div class="slider" id="slider">
+                <!-- .slider-section*4>img.slider-img -->
+                <div class="slider-section">
+                    <img src="imges/sliders/image1.jpg" alt="image-1" class="slider-img" height="300px">
+                </div>
+                <div class="slider-section">
+                    <img src="imges/sliders/image2.jpg" alt="image-2" class="slider-img" height="300px">
+                </div>
+                <div class="slider-section">
+                    <img src="imges/sliders/image3.jpg" alt="image-3" class="slider-img" height="300px">
+                </div>
+                <div class="slider-section">
+                    <img src="imges/sliders/image4.jpg" alt="image-4" class="slider-img" height="300px">
+                </div>
+            </div>
+            <!-- button.slider-btn.slider-btn*2 -->
+            <button id="btn-right" class="slider-btn slider-btn-right" />
+            <button id="btn-left" class="slider-btn slider-btn-left" />
+        </div>
     </section>
     <section id="sec2">
         <p>
@@ -42,5 +59,6 @@
     <footer class="footer">
         <h1>footer</h1>
     </footer>
+  <script src="index.js"></script>
 </body>
 </html>
